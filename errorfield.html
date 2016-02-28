@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>hideRows</title>
+        <link rel="stylesheet" href="errorfield.css">
+    </head>
+    <body>
+        <div style="margin:20px;">
+            <form action="sucess.html" onsubmit="return checkFinal()">
+                <p>First Name : <input type=text id=fname onchange="checkFName()">
+                <span class="hidden" id=fnameerr> First Name cannot be numberic  </span></p>
+                <p>Last Name : <input type=text id=lname onchange="checkLName()">
+                <span class="hidden" id=lnameerr> Last Name cannot be numberic  </span></p>
+                <p>Age : <input type=text id=age onchange="checkAge()">
+                <span class="hidden" id=ageerr> Age Name should be numberic  </span></p>
+                <input type=submit>
+            </form>
+            
+        </div>
+        <div id="result">
+        </div>
+        <script src="errorfield.js"></script>
+    </body>
+</html>

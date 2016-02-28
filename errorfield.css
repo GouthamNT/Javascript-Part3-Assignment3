@@ -1,0 +1,11 @@
+.error {
+    background: red;
+}
+
+.errormsg {
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
